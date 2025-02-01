@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #1c731c, #145214); /* Verde césped */
+    color: #fff;
+    padding: 0;
+}
+
+/* Navbar - Estilo marcador de partido */
+.navbar {
+    background-color: #064f14 !important; /* Verde oscuro */
+    border-bottom: 4px solid #ffcc00; /* Amarillo tipo marcador */
+    padding: 10px 20px;
+    margin: 0; /* Eliminamos el margen solo en el navbar */
+}
+
+/* Ajuste del margen general para el contenido */
+.container {
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 20px; /* Agregamos margen general en los lados */
+    margin-right: 20px;
+}
+
+/* Navbar - Título */
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem; /* Agrandar tamaño del texto */
+}
+
+.navbar-brand i {
+    margin-left: 10px;
+    font-size: 1.1em;
+    color: #ffcc00; /* Color de marcador */
+}
+
+/* Formularios - Inspirados en camisetas de fútbol */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 2px solid #ffcc00; /* Amarillo como líneas del campo */
+    padding: 12px;
+    background: #fff;
+    color: #000;
+}
+
+/* Botones mejorados */
+.btn {
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background: #ffcc00; /* Amarillo estilo balón */
+    color: black;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #d4a600; /* Oscuro en hover */
+    transform: scale(1.05);
+}
+
+.btn-danger {
+    background: #ff3b3b; /* Rojo brillante */
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #c90000;
+    transform: scale(1.05);
+}
+
+/* Tablas estilo césped */
+.table {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    overflow: hidden;
+    color: black;
+    margin-top: 20px;
+}
+
+.table thead {
+    background-color: #ffcc00; /* Amarillo */
+    color: black;
+    font-size: 1.2rem;
+}
+
+.table tbody tr:hover {
+    background: #1c731c; /* Verde césped */
+    color: white;
+}
+
+/* Imágenes con bordes redondeados */
+img {
+    border-radius: 10px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+/* Estilizar los dropdowns del navbar */
+.navbar .dropdown-menu {
+    background-color: #064f14; /* Verde oscuro */
+    border: 2px solid #ffcc00;
+}
+
+.navbar .dropdown-item {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar .dropdown-item:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background: #064f14;
+    text-align: center;
+    color: #ffcc00;
+    font-weight: bold;
+    border-top: 4px solid #ffcc00;
+    font-size: 1.2rem;
+}
